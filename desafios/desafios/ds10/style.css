@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(192, 202, 136, 0.534);
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(128, 212, 128), rgb(5, 97, 5));
+    margin: 0px -10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 8px -15px 11px 15px black;
+}
+
+header > h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif
+}
+
+
+header > nav > a{
+    font-weight: bolder;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    transition-duration: .5s;
+}
+
+.menu:hover {
+    background-color: rgba(130, 236, 153, 0.582);
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > article > h1{
+    font-size: xx-large;
+    font-family: idroid;
+    color: green;
+}
+
+main > article > h2{
+    box-shadow: inset 350px 1px 25px rgba(77, 190, 77, 0.226);
+    font-size:large;
+    font-family: idroid;
+    color: green;
+}
+
+main > article > p{
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: justify;
+}
+
+span {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.267);
+}
+
+main > article > img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main > article > img {
+    width: 100%;
+}
+
+nav.video {
+    background-color: green;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+nav.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main > nav{
+    background-color: green;
+    margin: 10px 50px 10px 50px;
+
+}
+
+aside {
+    background-color: rgba(91, 223, 91, 0.877);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-type: inside;
+    columns: 2;
+
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: green;
+    margin: auto;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    text-align:center;
+    margin:-10px -15px;
+    padding: 5px;
+}
